@@ -51,8 +51,8 @@ def chat_with_openrouter(prompt, model="deepseek/deepseek-r1-0528:free"):
 
 
 # Example usage - you can run this in a cell
-user_prompt = "The course is already started. Can I still join the course?"
-response = chat_with_openrouter(user_prompt)
+# user_prompt = "The course is already started. Can I still join the course?"
+# response = chat_with_openrouter(user_prompt)
 
 # Display the full response in a nicely formatted way
 # display(Markdown("## Full API Response"))
@@ -67,5 +67,5 @@ response = chat_with_openrouter(user_prompt)
 #     display(Markdown(f"**Error extracting response**: {e}"))
 #     display(Markdown(f"Full response: {response}"))
 
-print(response)
+# print(response)
 
